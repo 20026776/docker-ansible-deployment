@@ -8,6 +8,10 @@ This repository contains an Ansible playbook for deploying Docker containers run
 2. Clone this repository.
 3. Run the Ansible playbook `docker_deploy.yml`.
 
+## Network Diagram
+
+![Network Diagram](network_diagram.png)
+
 ## Requirements
 
 - Docker installed on the target machine(s)
