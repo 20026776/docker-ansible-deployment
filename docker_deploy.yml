@@ -30,7 +30,7 @@
           - "8080:80"
         networks:
           - name: apache_network
-            ipv4_address: 10.69.167.28
+            ipv4_address: 172.168.10.2
 
     - name: Create index.html inside the container
       command: docker exec apache_container bash -c 'echo "<html>
